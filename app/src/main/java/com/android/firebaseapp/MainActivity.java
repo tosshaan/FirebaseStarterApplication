@@ -69,13 +69,6 @@ public class MainActivity extends AppCompatActivity {
         student.setName(name);
         student.setStudentId(id);
 
-        //FirebaseDatabase database = FirebaseDatabase.getInstance();
-        //DatabaseReference myFirebaseRef = database
-        //        .getReferenceFromUrl("https://fir-demo-680f0.firebaseio.com");
-
-        //Firebase myFirebaseRef = new Firebase("https://fir-demo-680f0.firebaseio.com");
-        //myFirebaseRef.child(student.getStudentId()).setValue(student);
-
         Intent output = new Intent();
         setResult(RESULT_OK, output);
     }
