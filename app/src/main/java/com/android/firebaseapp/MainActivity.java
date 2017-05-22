@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void search(View button)
     {
-        EditText etId = (EditText) findViewById(R.id.EditTextId);
+        EditText etId = (EditText) findViewById(R.id.EditTextIdSearch);
         String idToSearch = etId.getText().toString();
     }
 
